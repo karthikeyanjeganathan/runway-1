@@ -1,4 +1,6 @@
 ```js
+const selected = { text: 'Los Angeles, United States', badge: 'LAX' };
+
 <Typeahead
   label="From"
   items={[
@@ -25,5 +27,6 @@
       return regex.test(`${item.text} ${item.badge}`);
     });
   }}
+  selectedItem={selected}
 />
 ```

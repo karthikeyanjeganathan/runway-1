@@ -212,7 +212,6 @@ class Typeahead extends Component {
   };
 
   render() {
-    console.log('TypeAhead Props', this.props);
     const {
       disabled,
       id,
@@ -389,7 +388,8 @@ Typeahead.propTypes = {
   maxLength: PropTypes.number,
   /** Optional specify height for the menu */
   menuHeight: PropTypes.string,
-  selectedItem: PropTypes.string
+  /** Optional specify selectecItem */
+  selectedItem: PropTypes.objectOf
 };
 
 Typeahead.defaultProps = {
