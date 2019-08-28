@@ -10,11 +10,11 @@ series [How to Contribute to an Open Source Project on GitHub][egghead]
 1.  Fork and clone the repo
 2.  Create a branch for your PR
 
-> Tip: Keep your `master` branch pointing at the original repository and make
+> Tip: Keep your `master` branch pointing at the original repository and makes
 > pull requests from branches on your fork. To do this, run:
 >
 > ```
-> git remote add upstream https://github.com/qantasairways/runway.git
+> git remote add upstream https://github.com/karthikeyanjeganathan/runway-1.git
 > git fetch upstream
 > git branch --set-upstream-to=upstream/master master
 > ```

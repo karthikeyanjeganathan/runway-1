@@ -212,6 +212,7 @@ class Typeahead extends Component {
   };
 
   render() {
+    console.log('TypeAhead Props', this.props);
     const {
       disabled,
       id,
@@ -228,7 +229,8 @@ class Typeahead extends Component {
       valid,
       selectItemCollector,
       maxLength,
-      menuHeight
+      menuHeight,
+      selectedItem
     } = this.props;
 
     const { placeholder } = this.state;
@@ -241,6 +243,7 @@ class Typeahead extends Component {
         onChange={onChange}
         onInputValueChange={this.onInputValueChange}
         stateReducer={stateReducer}
+        selectedItem={selectedItem}
       >
         {({
           setState,
@@ -251,7 +254,6 @@ class Typeahead extends Component {
           isOpen,
           inputValue,
           highlightedIndex,
-          selectedItem,
           selectItem
         }) => {
           if (selectItemCollector) {
@@ -262,7 +264,7 @@ class Typeahead extends Component {
               <div css={labelInputContainerStyles()}>
                 {label && (
                   <label {...getLabelProps()} css={labelStyles()}>
-                    {label}
+                    {`${label} Typeahead`}
                   </label>
                 )}
                 <input
@@ -386,7 +388,8 @@ Typeahead.propTypes = {
   /** Optional maxLength value for the html input */
   maxLength: PropTypes.number,
   /** Optional specify height for the menu */
-  menuHeight: PropTypes.string
+  menuHeight: PropTypes.string,
+  selectedItem: PropTypes.string
 };
 
 Typeahead.defaultProps = {
@@ -411,7 +414,8 @@ Typeahead.defaultProps = {
   stateReducer: undefined,
   valid: true,
   maxLength: 100,
-  menuHeight: '285px'
+  menuHeight: '285px',
+  selectedItem: null
 };
 
 export default Typeahead;

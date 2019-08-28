@@ -1,5 +1,5 @@
 {
-  "name": "@qantasairways/runway",
+  "name": "@karthikeyanjeganathan/runway-1",
   "version": "0.42.0",
   "description": "Qantas Style Guide",
   "main": "./lib/index.js",
@@ -25,15 +25,15 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/qantasairways/runway.git"
+    "url": "git+https://github.com/karthikeyanjeganathan/runway-1.git"
   },
   "keywords": [],
   "author": "",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/qantasairways/runway/issues"
+    "url": "https://github.com/karthikeyanjeganathan/runway-1/issues"
   },
-  "homepage": "https://github.com/qantasairways/runway#readme",
+  "homepage": "https://github.com/karthikeyanjeganathan/runway-1#readme",
   "dependencies": {
     "body-scroll-lock": "^2.6.1",
     "date-fns": "^1.30.1",
