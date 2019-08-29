@@ -389,7 +389,7 @@ Typeahead.propTypes = {
   /** Optional specify height for the menu */
   menuHeight: PropTypes.string,
   /** Optional specify selectecItem */
-  selectedItem: PropTypes.objectOf
+  selectedItem: PropTypes.objectOf(PropTypes.any)
 };
 
 Typeahead.defaultProps = {
