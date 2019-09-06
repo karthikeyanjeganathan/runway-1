@@ -1,3 +1,38 @@
+# [0.44.0](https://github.com/qantasairways/runway/compare/v0.43.0...v0.44.0) (2019-09-05)
+
+
+### Features
+
+* **npmlink:** watch for changes with install npm watch package ([#127](https://github.com/qantasairways/runway/issues/127)) ([1c19589](https://github.com/qantasairways/runway/commit/1c19589))
+
+# [0.43.0](https://github.com/qantasairways/runway/compare/v0.42.3...v0.43.0) (2019-09-04)
+
+
+### Features
+
+* **dropdown:** Add props for height of dropdown and highlighted, inline and growMenu variations ([#125](https://github.com/qantasairways/runway/issues/125)) ([fa1e11d](https://github.com/qantasairways/runway/commit/fa1e11d))
+
+## [0.42.3](https://github.com/qantasairways/runway/compare/v0.42.2...v0.42.3) (2019-09-03)
+
+
+### Bug Fixes
+
+* **dropdown:** do not select item onBlur ([#126](https://github.com/qantasairways/runway/issues/126)) ([29140a9](https://github.com/qantasairways/runway/commit/29140a9))
+
+## [0.42.2](https://github.com/qantasairways/runway/compare/v0.42.1...v0.42.2) (2019-08-29)
+
+
+### Bug Fixes
+
+* **daypicker:** fix keyboard navigation ([#121](https://github.com/qantasairways/runway/issues/121)) ([2469acd](https://github.com/qantasairways/runway/commit/2469acd))
+
+## [0.42.1](https://github.com/qantasairways/runway/compare/v0.42.0...v0.42.1) (2019-08-28)
+
+
+### Bug Fixes
+
+* **typeahead:** add onKeyDown prop ([#123](https://github.com/qantasairways/runway/issues/123)) ([85a8245](https://github.com/qantasairways/runway/commit/85a8245))
+
 # [0.42.0](https://github.com/qantasairways/runway/compare/v0.41.2...v0.42.0) (2019-08-21)
 
 
